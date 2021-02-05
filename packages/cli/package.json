@@ -1,0 +1,20 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "test-cli": "./lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.3"
+  }
+}

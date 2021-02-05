@@ -1,0 +1,16 @@
+{
+  "name": "npm7-bin-link-issue",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd packages/sdk && npm run build && cd ../cli && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
